@@ -5,7 +5,7 @@
 ### Integrantes
 
 - Andres Quevedo 181336
-- Francisco Gonzalez 
+- Francisco Gonzalez 175575
 - Pablo Ruz
 - Rodrigo Piedras
 
