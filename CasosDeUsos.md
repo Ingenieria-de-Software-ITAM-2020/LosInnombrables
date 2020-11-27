@@ -1,4 +1,4 @@
-# Casos de Usos
+# Casos de Uso
 ## Ingresar a la aplicación
 ![Caso de Uso Login](imagenes/CasosDeUso/CasoDeUsoLOGIN.png)
 
