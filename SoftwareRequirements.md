@@ -65,20 +65,25 @@ Principalmente se ingresará a la aplicación a través de el correo de la insti
 ## 4 Funcionalidades del sistema
 ### 4.1 Crear grupos de chat
 #### 4.1.1 Descripción y prioridad
-
+Esta funcionalidad se refiere a la habilidad que tendrán los estudiantes de poder crear grupos de chat con otros estudiantes donde los mensajes solo serán visibles a los integrantes del grupo. Esta funcionalidad tiene prioridad 1 porque es vital para una aplicación de chat poder crear grupos y equipos de trabajo.
 #### 4.1.2 Secuencias de Estímulo/Respuesta
 Estímulo | Respuesta
 -------- | ---------
-| 
+Un usuario seleccionara la opción de crear grupo | La aplicación le brindará una ventana con todos los estudiantes donde podrá elegir quien es integrante del grupo.
 #### 4.1.3 Requerimientos funcionales
+- **REQ-1:** Acceso a la base de datos con los nombres de todos los alumnos para poder elegir cual meter al grupo.
+- **REQ-2:** Un nivel de seguridad donde ninguna persona fuera del grupo pueda acceder a los mensajes dentro del grupo.
 
 ### 4.2 Buscar a un alumno o profesor 
 #### 4.2.1 Descripción y prioridad
+Esta funcionalidad se refiere a la búsqueda de alumnos o profesores de la comunidad ITAM para poder comunicarse con cualquier integrante de la comunidad ITAM. Este tiene una prioridad 1 ya que es esencial que los usuarios puedan comunicarse con quien quieran. 
 #### 4.2.2 Secuencias de Estímulo/Respuesta
 Estímulo | Respuesta
 -------- | ---------
-| 
+La aplicación tendrá una barra de búsqueda donde podrá ingresar el nombre o clave única de un usuario | La aplicación regresará una ventana con los resultados y la opción de empezar un chat con cualquiera de los usuarios en el resultado.
 #### 4.2.3 Requerimientos funcionales
+- **REQ-1:** Acceso a la base de datos con los nombres y claves únicas de todos los alumnos y profesores usuarios de la plataforma.
+- **REQ-2:** Debería ser posible crear chats privados con cualquier usuario.
 
 ### 4.3 Ingresar a la aplicación
 #### 4.3.1 Descripción y prioridad
@@ -98,16 +103,21 @@ ITAM Chat tendrá una sección que sea el foro de una clase donde un alumno pued
 #### 4.4.2 Secuencias de Estímulo/Respuesta
 Estímulo | Respuesta
 -------- | ---------
-| 
+El usuario ingresará a la pestaña de foros, buscara el foro de su clase, escribirá su pregunta y oprimirá un botón de subir | La aplicación recibirá la pregunta y la desplegará en la ventana del foro.
 #### 4.4.3 Requerimientos funcionales
+- **REQ-1:** Esta funcionalidad requiere de una ventana para desplegar la pregunta subida al foro.
 
 ### 4.5 Conectar al calendario para agendar eventos 
 #### 4.5.1 Descripción y prioridad
+Esta funcionalidad permitirá a usuarios agendar eventos con otros usuarios como citas, sesiones de estudios, trabajos en equipo etc. Adicionalmente la aplicación se conectará a Google Calendar para automáticamente crear el evento y agregarlo. Este tiene prioridad 3 porque no es esencial para el funcionamiento del programa pero sería una funcionalidad muy útil.
 #### 4.5.2 Secuencias de Estímulo/Respuesta
 Estímulo | Respuesta
 -------- | ---------
-| 
-#### 4.5.3 Requerimientos funcionales
+Dentro de un chat habra la opción de agendar un evento | La aplicación automáticamente asumira que el evento será con los integrantes del chat y mandará una instancia del evento a Google Calendar para que lo registre. 
+#### 4.5.3 Requerimientos funcionales-
+- **REQ-1:** Requiere una conexión a través de un API a Google Calendar.
+- **REQ-2:** Requiere que los usuarios tengan Google Calendar conectado al dispositivo donde estén utilizando ITAM Chat.
+- **REQ-3:** Requiere que la aplicación pueda informar a otros usuarios de eventos creados que los incluyen a ellos.
 
 ## 5 Otros Requerimientos No Funcionales
 ### Requerimientos Operacionales
