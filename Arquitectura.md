@@ -11,5 +11,14 @@ En algunas situaciones el rendimiento alto significa mejor aplicación. En el ca
 Así como la testabilidad debe ser alta para los futuros ingenieros que se vuelvan encargados de trabajar sobre este sistema, se desea una escalabilidad alta para poder implementar, sin mayor dificultades, otras funcionalidades en el futuro conforme se vaya incrementando la necesidad para ellas.
 ### Desarrollo
 El desarrollo debe ser relativamente alto para que sea fácil de programar y para que esté disponible rápidamente para los usuarios. Por condiciones de COVID muchas operaciones del día a día se digitalizaron y se requiere esta aplicación para sustituir unas de ellas.
-### Por lo tanto
-En base a estas condiciones la arquitectura que cumple más con los requisitos es la de microservicios. Con esta arquitectura se pueden mantener todos los aspectos necesarios altos y la única característica que sufre este esto es el rendimiento pero ese no es importante para el sistema que se quiere desarrollar.
+### Por lo tanto...
+En base a estas condiciones la arquitectura que cumple más con los requisitos es la de microservicios (en base a la Imagen: Comparación de Arquitecturas). Con esta arquitectura se pueden mantener todos los aspectos necesarios altos y la única característica que sufre este esto es el rendimiento pero ese no es importante para el sistema que se quiere desarrollar.
+
+![Comparación de Arquitecturas](arquitecturasComp.PNG)
+
+<sub><sup>Imagen del libro digital de Software Architecture Patterns de Mark Richards en la página www.oreilly.com</sup></sub>
+
+## Diseño de Arquitectura
+![Diseño de ITAM Chat](itamChatArquitectura.png)
+
+La arquitectura tendrá el siguiente diseño. No está limitada a esa cantidad de servicios, sino es una idea general de cómo debera operar la aplicación.
