@@ -7,7 +7,7 @@
 - Andres Quevedo 181336
 - Francisco Gonzalez 175575
 - Pablo Ruz
-- Rodrigo Piedras
+- Rodrigo Piedras 175577
 
 
 ## Índice
