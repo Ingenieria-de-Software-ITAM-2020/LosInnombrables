@@ -121,9 +121,20 @@ Dentro de un chat habra la opción de agendar un evento | La aplicación automá
 
 ## 5 Otros Requerimientos No Funcionales
 ### Requerimientos Operacionales
+Los requerimientos para que la aplicación funcione como debe de funcionar se reduce al desempeño y el límite de carga que permitan los servidores que respaldan a la aplicación. Estos deben de poder resistir el uso de alrededor de 6000 usuarios que serían los integrantes de la comunidad ITAM.
 ### Requerimientos de Protección
+Los daños que podría causar la aplicación por su naturaleza son principalmente relacionados al acoso o la agresión que se puede producir a través de una aplicación que permite la comunicación. Los requerimientos para poder proteger ante dichos incidentes sería que la aplicación implemente medidas de seguridad donde se pueda reportar comportamiento de esta índole para eliminar cualquier agresión o acoso. 
 ### Requerimientos de Seguridad
+ITAM Chat se encargara de salvaguardar los datos con los que trabaja a través de varios requerimientos que tomará como regla
+- Cuando un usuario ingrese su información dentro de la aplicación esta sera encriptada cuando se manda al servidor para validar.
+- Las conversaciones estarán encriptadas para evitar que se expongan.
+- Las bases de datos que contengan toda la información sensible será protegida de manera adecuada. 
 ### Atributos de Software de Calidad
+Algunos atributos a considerar para ITAM Chat son
+- **Adaptabilidad:** ITAM Chat debería ser accesible desde la mayoría de los dispositivos y todos los navegadores en los que se acceda.
+- **Mantenibilidad:** La plataforma debe de incluir un 'toolkit' o portal especial donde los administradores puedan completar las tareas administrativas del sistema y darle mantenimiento.
+- **Confiabilidad:** La aplicación será diseñada de modo que en caso de que ocurra un problema, el 'downtime' del sistema sea imperceptible. Sin embargo, si el problema es grande y no se logra reanudar rápidamente la funcionalidad de ITAM Chat, la información será guardada de manera adecuada.
+- **Usabilidad:** El UI de la aplicación será amistosa y tendrá una interfaz intuitiva para dar la mínima cantidad de problemas al utilizarlo. Adicionalmente tomará en cuenta a todos los dispositivos para que la aplicación sea usable sin importar el dispositivo en el que la veas.
 ### Reglas del Negocio
+Se debe de considerar el tema de la privacidad de información entonces se restringirá la información que es visible para los estudiantes al igual que los maestros. La información personal del estudiante no será visible y los demás usuarios sólo podrán ver lo que les podría interesar, nada más ni nada menos. Adicionalmente los usuarios tendrán un contacto con los administradores de la aplicación si por alguna razón necesiten ayuda en un problema que ponga en peligro su seguridad.
 
-## 6 Otros Requerimientos
