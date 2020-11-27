@@ -1,6 +1,5 @@
 # Los Innombrables
 
-### Logo de ITAM Chat
 ![alt text](https://github.com/Ingenieria-de-Software-ITAM-2020/LosInnombrables-ProyectoFinal/blob/main/ITAMChatLogo.png)
 
 ### Integrantes
