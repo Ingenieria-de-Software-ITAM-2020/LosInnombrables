@@ -27,13 +27,12 @@ ITAM Chat nace de la necesidad que surge cada semestre de comunicar de manera ef
 - Establecer un chat entre todos los estudiantes y el maestro de una clase.
 - Tener un chat privado entre cada estudiante y el maestro.
 - Crear un foro donde se puedan subir preguntas y comentarios para que el maestro u otros estudiantes puedan contestar.
-- Poder desplegar calificaciones y trabajos que se necesitan entregar.
 - Poder conectar integrantes de un equipo con facilidad.
 ### Clases y Características del Usuario.
 Usuario | Descripción
 ------- | -----------
 Estudiantes | Los estudiantes serán los principales usuarios de la plataforma ya que necesitarán comunicarse entre ellos y con los profesores constantemente. La aplicación los debe permitir crear subgrupos con otros estudiantes, recibir y mandar mensajes a estudiantes y maestros y finalmente checar y subir cosas al foro.
-Maestros | Los maestros verán dentro de la aplicación los diversos grupos que tienen y podrán crear subgrupos, recibir y mandar mensajes, interactuar con el foro y adicionalmente podrán crear tareas, entregar calificaciones y reportar estudiantes por mala conducta.
+Maestros | Los maestros verán dentro de la aplicación los diversos grupos que tienen y podrán crear subgrupos, recibir y mandar mensajes, interactuar con el foro y adicionalmente podrán entregar calificaciones y reportar estudiantes por mala conducta.
 Administrativos | Los administrativos tienen control completo sobre la aplicación en caso de que se necesite cambiar ciertos elementos o mover gente de grupos. Los administrativos son los que menos usarán la plataforma pero la mantendrán de pie.
 ### Ambiente de operación
 ITAM Chat funcionará sobre cualquier navegador ingresando a Comunidad y picando la liga hacia ITAM Chat Web. Adicionalmente la aplicación estará disponible en el App Store y Google Store para su uso móbil.
