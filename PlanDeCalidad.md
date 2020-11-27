@@ -30,7 +30,35 @@ Los principales riesgos con la aplicación “ITAM Chat” están relacionados c
 
 ## 6 Funciones por probar
 
+Los siguientes puntos son las funcionalidades que hay que probar:
+
+•	Funcionamiento de la interfaz.
+
+•	Requests de información (query) de la base de datos del ITAM para buscar usuarios
+
+•	Funcionamiento de iniciar sesión y cerrar sesión.
+
+•	Mandar mensajes entre usuarios.
+
+•	Creación de grupos por los usuarios.
+
+•	Creación, modificación y eliminación de eventos desde ITAM Chat en Google Calendar.
+
+•	Funcionamiento de mandar documentos entre usuarios.
+
+•	Funcionamiento de los foros que sean visibles y accesible a todos los interesados.
+
+
 ## 7 Funciones que no deben probarse
+
+Los siguientes puntos son las funcionalidades que todavía no hay que probar:
+
+• Búsqueda de mensajes anteriores.
+
+• Funcionamiento para que los usuarios se puedan salir del grupo.
+
+• Funcionamiento para poder cerrar foros.
+
 
 ## 8 Estrategia
 
@@ -69,8 +97,17 @@ El proyecto podrá suspenderse o retrasarse en caso de emergencia sanitaria, o e
 También el proyecto se detendrá si por alguna razón el cliente se ve impedido de realizar las revisiones necesarias. En dicho caso, la reanudación se hará cuando se efectúen los VoBos necesarios y se obtenga la retroalimentación requerida.
 
 ## 11 Entregables de la prueba
+El entregable debe ser un reporte detallando el grado de éxito de las pruebas propuestas. Por ejemplo, debe detallar el tiempo que duran las pruebas y si fueron llevaron a cabo su función correctamente. El reporte debe tomar en cuenta todas las pruebas propuestas y en caso de que una no funcione de manera adecuada.
 
 ## 12 Tareas de prueba restantes
+
+A continuación se puede encontrar un listado de las pruebas que aún se tienen que hacer:
+
+• Una prueba para que el usuario pueda buscar mensajes anteriores.
+
+• Una prueba para probar que un usuario pueda salirse de un grupo en el que se encuentra.
+
+• Una prueba para comprobar que el usuario pueda cerrar y borrar de su historial foros que ha abierto.
 
 ## 13 Necesidades ambientales
 
