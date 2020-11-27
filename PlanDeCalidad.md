@@ -17,6 +17,18 @@ De igual forma, se establecerá la estrategia general de revisiones, niveles de 
 
 ## 4 Elementos de prueba (funciones)
 
+Los siguientes elementos se van a probar:
+
+• La funcionalidad correcta de la interfaz
+
+• La funcionalidad de mandar mensajes y que se reciban correctamente
+
+• La funcionalidad de crear grupos y mandar mensajes en ellos y que se reciban correctamente.
+
+• La funcionalidad de foros y poder usarlos como se deben usar.
+
+• La funcionalidad del API con Google Calender para crear y modificar eventos desde la aplicación
+
 ## 5 Riesgos del software
 
 Los principales riesgos con la aplicación “ITAM Chat” están relacionados con la seguridad de los datos y conversaciones, así como con el uso de estos para una eventual optimización de su funcionamiento. Además, los chats son lugares que, en tanto que promueven una conversación entre dos personas en un ambiente semi controlado, pueden usarse de forma inapropiada. En concreto, los riesgos principales son los siguientes:
@@ -139,6 +151,8 @@ A continuación se muestra una lista con las actividades y los responsables de c
 
 
 ## 16 Agenda
+
+La agenda para esté proyecto está planeado para que se pueda entregar antes de verano de 2021 para que se pueda probar durante ese periodo con una carga menor de usuarios. Los detalles de la agenda aún faltan de definir formalmente.
 
 ## 17 Planeación de riesgos y contingencias
 
