@@ -1,6 +1,6 @@
 # Los Innombrables
 
-![alt text](https://github.com/Ingenieria-de-Software-ITAM-2020/LosInnombrables-ProyectoFinal/blob/main/ITAMChatLogo.png)
+![alt text](https://github.com/Ingenieria-de-Software-ITAM-2020/LosInnombrables-ProyectoFinal/blob/main/imagenes/ITAMChatLogo.png)
 
 ## Integrantes
 
