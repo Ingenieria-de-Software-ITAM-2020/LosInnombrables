@@ -7,7 +7,7 @@ El producto que se presenta a continuación en este SRS es la aplicación de ITA
 Convención | Definición
 ---------- | -----------
 ITAM | Instituto Tecnológico Autónomo de México
-
+1-3 | Se utilizará una escala de 1-3 para las funcionalidades del sistema donde 1 indica una funcionalidad con la más alta prioridad y 3 indica una funcionalidad con baja prioridad.
 
 ### Audiencia y Sugerencias al Leer 
 Este SRS tiene como objetivo de audiencia a los desarrolladores que crearan y mantendrán la aplicación en el futuro. Se sugiere leer la introducción y la descripción general, y posteriormente utilizar los subtítulos para leer la sección que más sea de su interés.
@@ -65,27 +65,48 @@ Principalmente se ingresará a la aplicación a través de el correo de la insti
 ## 4 Funcionalidades del sistema
 ### 4.1 Crear grupos de chat
 #### 4.1.1 Descripción y prioridad
+
 #### 4.1.2 Secuencias de Estímulo/Respuesta
+Estímulo | Respuesta
+-------- | ---------
+| 
 #### 4.1.3 Requerimientos funcionales
 
 ### 4.2 Buscar a un alumno o profesor 
 #### 4.2.1 Descripción y prioridad
 #### 4.2.2 Secuencias de Estímulo/Respuesta
+Estímulo | Respuesta
+-------- | ---------
+| 
 #### 4.2.3 Requerimientos funcionales
 
 ### 4.3 Ingresar a la aplicación
 #### 4.3.1 Descripción y prioridad
+Esta funcionalidad se refiere a la habilidad y la ventana necesaria para poder ingresar a la aplicación. Esta funcionalidad se encarga de checar que los datos ingresados estén correctos para permitir que el usuario ingrese. Esta tiene una prioridad de 1 ya que sin esta funcionalidad no se puede utilizar la plataforma.
 #### 4.3.2 Secuencias de Estímulo/Respuesta
+Estímulo | Respuesta
+-------- | ---------
+El usuario ingresará sus datos dentro de unos inputs localizados en una ventana de inicio de sesión | La aplicación mandara un query a la base de datos para verificar que los datos ingresados corresponden a un usuario válido.
 #### 4.3.3 Requerimientos funcionales
+- **REQ-1:** El programa debe de tener una manera de verificar correos y usuarios.
+- **REQ-2:** Los usuarios deben de estar afiliados y registrados en el sistema de correos del ITAM.
+- **REQ-3:** Los datos del usuario serán encriptados cuando se manden o se reciban.
 
 ### 4.4 Subir preguntas al foro de una clase
 #### 4.4.1 Descripción y prioridad
+ITAM Chat tendrá una sección que sea el foro de una clase donde un alumno pueda subir preguntas acerca de la materia y el profesor u otro alumno pueda responder. Esta funcionalidad se debe encargar que sea posible subir una pregunta al foro y que sea visible a los demás. Es de prioridad 2 porque es parte de un feature importante pero sin el foro la aplicación sigue funcionando.
 #### 4.4.2 Secuencias de Estímulo/Respuesta
+Estímulo | Respuesta
+-------- | ---------
+| 
 #### 4.4.3 Requerimientos funcionales
 
 ### 4.5 Conectar al calendario para agendar eventos 
 #### 4.5.1 Descripción y prioridad
 #### 4.5.2 Secuencias de Estímulo/Respuesta
+Estímulo | Respuesta
+-------- | ---------
+| 
 #### 4.5.3 Requerimientos funcionales
 
 ## 5 Otros Requerimientos No Funcionales
