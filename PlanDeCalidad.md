@@ -60,6 +60,8 @@ Se llevarán a cabo dos reuniones generales semanales, en martes y viernes, para
 
 ## 9 Criterios de aprobación y falla
 
+En cuanto a las funcionalidades de requiere, el criterio de aprobación es binario; es decir, 1 si funciona, o 0 si no funciona. En cuanto a la integración se refiere, habrá dos criterios, a saber: (a) el primero de ellos será binario, análogo al de las funcionalidades, y (b) el segundo será a discreción de product manager, quien habrá de verificar que se cumplan con las expectativas de interacción y calidad que se han prometido al cliente. Finalmente, para el último de los niveles, será el cliente quien establezca la decisión final de aprobación. 
+
 ## 10 Criterios para la suspensión y requerimientos de reanudación
 
 ## 11 Entregables de la prueba
@@ -69,6 +71,8 @@ Se llevarán a cabo dos reuniones generales semanales, en martes y viernes, para
 ## 13 Necesidades ambientales
 
 ## 14 Necesidades del personal
+
+Para poder realizar las pruebas será necesario que los desarrolladores se apeguen a las prácticas aquí mencionadas, y que sigan las guías establecidas por el product manager. De igual forma, será vital tener comunicación con el representante establecido por el cliente para los niveles 2 y 3. 
 
 ## 15 Responsabilidades
 
