@@ -64,11 +64,26 @@ En cuanto a las funcionalidades de requiere, el criterio de aprobación es binar
 
 ## 10 Criterios para la suspensión y requerimientos de reanudación
 
+El proyecto podrá suspenderse o retrasarse en caso de emergencia sanitaria, o en caso de que un miembro del equipo o de la familia inmediata de los mismos resulte afectado por la presente pandemia. 
+
+También el proyecto se detendrá si por alguna razón el cliente se ve impedido de realizar las revisiones necesarias. En dicho caso, la reanudación se hará cuando se efectúen los VoBos necesarios y se obtenga la retroalimentación requerida.
+
 ## 11 Entregables de la prueba
 
 ## 12 Tareas de prueba restantes
 
 ## 13 Necesidades ambientales
+
+Para poder llevar a cabo las pruebas necesarias se requerirá:
+
+•	Del acceso a la base de datos en modo sandbox para las funcionalidades iniciales y la integración.
+
+•	Del acceso a la base de datos en modo producción para la revisión final
+
+•	Tener una línea de comunicación con el cliente para compartir información, según lo requiera la situación.
+
+•	Acceso a los servidores donde se almacena el código del sitio web actual.
+
 
 ## 14 Necesidades del personal
 
@@ -93,6 +108,9 @@ A continuación se muestra una lista con las actividades y los responsables de c
 Actualmente todo el equipo se encuentra laborando activamente en diversos proyectos, de modo que el PM podría demorarse en la revisión de algunas documentaciones y al momento de realizar las pruebas. Por ende, es importante preveer tales retrasos en los tiempos establecidos. De igual forma, el cliente generalmente tarda en realizar las revisiones correspondientes.
 
 ## 18 Aprobaciones
+
+Product Manager ---------------------
+Cliente ----------------------------
 
 ## 19 Glosario
 
