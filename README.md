@@ -17,5 +17,5 @@
 1. [Software Requirements](SoftwareRequirements.md)
 1. [Casos de Uso](CasosDeUso.md)
 1. [Prototipo de la Aplicación](Prototipo)
-1. [Presentación](https://drive.google.com/file/d/1xqA0LEvsx6QlVW22OsY894VVcDt3r774/view?usp=sharing)
+1. [Presentación](https://docs.google.com/presentation/d/1TmClzE97xOveNDFxoyCF_2YHBM6wskb77Ct6U_3BcaE/edit?usp=sharing)
 
