@@ -76,9 +76,21 @@ Para poder realizar las pruebas será necesario que los desarrolladores se apegu
 
 ## 15 Responsabilidades
 
+A continuación se muestra una lista con las actividades y los responsables de cada una:
+
+•	Aceptación final del proyecto (C y PM)
+•	Testeo de las funcionalidades, a nivel individual (D)
+•	Integración de funcionalidades, en un segundo nivel (D)
+•	Revisión de la integración de funcionalidades, en un segundo nivel (PM)
+•	Documentación de funcionalidades (D)
+•	Documentación a nivel negocio (PM)
+
+
 ## 16 Agenda
 
 ## 17 Planeación de riesgos y contingencias
+
+Actualmente todo el equipo se encuentra laborando activamente en diversos proyectos, de modo que el PM podría demorarse en la revisión de algunas documentaciones y al momento de realizar las pruebas. Por ende, es importante preveer tales retrasos en los tiempos establecidos. De igual forma, el cliente generalmente tarda en realizar las revisiones correspondientes.
 
 ## 18 Aprobaciones
 
