@@ -38,20 +38,55 @@ Administrativos | Los administrativos tienen control completo sobre la aplicaci�
 ### Ambiente de operación
 ITAM Chat funcionará sobre cualquier navegador ingresando a Comunidad y picando la liga hacia ITAM Chat Web. Adicionalmente la aplicación estará disponible en el App Store y Google Store para su uso móbil.
 ### Limitaciones de Implementación y Diseño
-
+ITAM Chat tiene las siguientes limitaciones
+- Los datos utilizados por la aplicación deben de ser controlados completamente por el ITAM.
+- El ITAM se encargará de el mantenimiento del software.
+- Tiene que haber un límite de los tipos de mensajes que se pueden mandar y el tamaño de los archivos.
 ### Documentación
+- ITAM Chat tendrá una sección de FAQ donde los estudiantes podrán recurrir para resolver dudas sobre como utilizar la aplicación.
+- Los ingenieros encargados de mantener el programa estarán completamente capacitados para responder preguntas.
+- Comunidad ITAM tendrá un pequeño manual sobre cómo utilizar ITAM Chat.
 ### Supuestos y Dependencias
+- La cantidad de usuarios que utilizaran la plataforma no puede pasar cierto límite.
+- El programa al igual que su backend será mantenido de forma adecuada.
+- Se asume que los usuarios de ITAM Chat son miembros de la comunidad ITAM y tienen cuenta para poder ingresar.
 
 ## 3 Requerimientos de Interfaces Externas
 ### Interfaces de Usuario
+
 ### Interfaces del Hardware
+- **Dispositivos Móviles:** ITAM Chat funcionará dentro de los dispositivos móviles donde tendrá la mayoría de usuarios. En este hardware la aplicación tendrá pantallas más pequeñas por lo que habrán ventanas dentro del programa con menos opciones pero se podrá ver y hacer todo, nada más que de manera reducida.
+- **Navegador Web:** ITAM Chat adicionalmente va a funcionar sobre un navegador web si es que se necesita acceder a través de una computadora. La aplicación en el navegador web tendrá ventanas con muchas más opciones que elegir y sería inevitablemente más cómodo usarlo.
 ### Interfaces de Software
+La aplicación necesitaría una conexión con una base de datos donde mandaría los mensajes que se están enviando y guardaría dichos mensajes para desplegar las conversaciones que se estén haciendo. En cuanto a la seguridad, los datos del alumno que se guarden tienen que ser limitados y guardados con un alto nivel de seguridad en la base de datos. La aplicación mandaría como output los mensajes que escribe el usuario y como input los mensajes que le están mandando a dicho usuario o al grupo al cual el pertenece.
 ### Interfaces de Comunicación
+Principalmente se ingresará a la aplicación a través de el correo de la institución por lo que ITAM Chat debe de tener una comunicación con el servicio del correo electrónico. Adicionalmente en cuanto a seguridad, los mensajes y la información mandada será encriptada.
 
 ## 4 Funcionalidades del sistema
-### System Feature 1
-### System Feature 2
-### System Feature 3
+### 4.1 Crear grupos de chat
+#### 4.1.1 Descripción y prioridad
+#### 4.1.2 Secuencias de Estímulo/Respuesta
+#### 4.1.3 Requerimientos funcionales
+
+### 4.2 Buscar a un alumno o profesor 
+#### 4.2.1 Descripción y prioridad
+#### 4.2.2 Secuencias de Estímulo/Respuesta
+#### 4.2.3 Requerimientos funcionales
+
+### 4.3 Ingresar a la aplicación
+#### 4.3.1 Descripción y prioridad
+#### 4.3.2 Secuencias de Estímulo/Respuesta
+#### 4.3.3 Requerimientos funcionales
+
+### 4.4 Subir preguntas al foro de una clase
+#### 4.4.1 Descripción y prioridad
+#### 4.4.2 Secuencias de Estímulo/Respuesta
+#### 4.4.3 Requerimientos funcionales
+
+### 4.5 Conectar al calendario para agendar eventos 
+#### 4.5.1 Descripción y prioridad
+#### 4.5.2 Secuencias de Estímulo/Respuesta
+#### 4.5.3 Requerimientos funcionales
 
 ## 5 Otros Requerimientos No Funcionales
 ### Requerimientos Operacionales
