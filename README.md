@@ -2,7 +2,7 @@
 
 ![alt text](https://github.com/Ingenieria-de-Software-ITAM-2020/LosInnombrables-ProyectoFinal/blob/main/ITAMChatLogo.png)
 
-### Integrantes
+## Integrantes
 
 - Andres Quevedo 181336
 - Francisco Gonzalez 175575
