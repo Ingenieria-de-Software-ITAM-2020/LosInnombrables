@@ -11,10 +11,10 @@
 
 
 ## Índice
-* [Arquitectura](Arquitectura.md)
-* [Metodología](Metodologia.md)
-* [Plan de Calidad](PlanDeCalidad.md)
-* [Software Requirements](SoftwareRequirements.md)
-* [Prototipo de la Aplicación](Prototipo.rar)
-* [Presentación](https://docs.google.com/presentation/d/1TmClzE97xOveNDFxoyCF_2YHBM6wskb77Ct6U_3BcaE/edit?usp=sharing)
+1. [Arquitectura](Arquitectura.md)
+1. [Metodología](Metodologia.md)
+1. [Plan de Calidad](PlanDeCalidad.md)
+1. [Software Requirements](SoftwareRequirements.md)
+1. [Prototipo de la Aplicación](Prototipo.rar)
+1. [Presentación](https://docs.google.com/presentation/d/1TmClzE97xOveNDFxoyCF_2YHBM6wskb77Ct6U_3BcaE/edit?usp=sharing)
 
